@@ -1,0 +1,5 @@
+lshw | grep -B 1 "description: Computer" | grep -v "description: Computer"
+lshw | grep -A 6 "*-cpu" | grep -v "version"
+lshw | grep -A 3 "*-memory"
+lshw | grep -A 12 "*-display" | grep -v "logical" | grep -v "version"
+lshw | grep -A 15 "*-network"
