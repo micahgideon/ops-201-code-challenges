@@ -2,26 +2,24 @@
 
 # Script: Ops 201 Class 06 Ops Challenge Solution
 # Author: Micah	Miranda
-# Date of latest revision: 2/13/23
+# Date of latest revision: 2/14/23
 # Purpose: Detect is a file or directory exists, then creats one if it doesn't
 
 # Main
+lsh
+array=("file.txt" "directory")
 
-name_array=("file.txt" "directory")
-
-for name in "${name_array[@]}"
+for name in "${array[@]}"
 do
-  path="${name}"
-
-  if [ ! -e "$path" ]; then
-    echo "$path does not exist. Creating it now..."
+  if [ ! -e "$name" ]; then
+    echo "$name does not exist. Creating it now..."
     if [ "$name" == "file.txt" ]; then
-      touch "$path"
+      touch "$name"
     elif [ "$name" == "directory" ]; then
-      mkdir "$path"
+      mkdir "$name"
     fi
   else
-    echo "$path exists."
+    echo "$name exists."
   fi
 done
 
