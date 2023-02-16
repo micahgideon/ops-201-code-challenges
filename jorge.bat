@@ -1,1 +1,1 @@
-robocopy C:\users\%userprofile%\Desktop C:\users\%userprofile%\Documents *.* /E
+robocopy C:\users\j.thompson\Desktop C:\users\j.thompson\folder\ /E
