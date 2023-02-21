@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Script: Ops 201 Class 11 Ops Challenge Solution
 # Author: Micah	Miranda
 # Date of latest revision: 2/20/23
