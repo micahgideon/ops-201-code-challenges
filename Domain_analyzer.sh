@@ -3,7 +3,7 @@
 # Script: Ops 201 Class 13 Ops Challenge Solution
 # Author: Micah	Miranda
 # Date of latest revision: 2/22/23
-# Purpose: Detect is a file or directory exists, then creats one if it doesn't
+# Purpose: Create a script that asks a user for a domain and feeds back a text file with the information on that domain
 
 # Main
 
