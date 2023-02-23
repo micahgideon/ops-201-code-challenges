@@ -14,8 +14,11 @@ domain_information () {
 
 	# Run whois against a user input string.
 	whois $domain >> domain.txt
+	# Run dig against the user input string.
 	dig $domain >> domain.txt
+	# Run host against the user input string.
 	host $domain >> domain.txt
+	# Run nslookup against the user input string.
 	nslookup $domain >> domain.txt
 }
 
