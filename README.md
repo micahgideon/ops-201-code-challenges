@@ -1,3 +1,1 @@
-# ops-201-code-challenges
-
-this is a change to that file
+This repo shows all of the diffrent projects that I completed throughout the past few weeks in class.
